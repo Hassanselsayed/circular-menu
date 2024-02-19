@@ -1,0 +1,95 @@
+.main-img {
+  height: 630px;
+  width: 420px;
+  object-fit: cover;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: fit-content;
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 60px;
+  position: relative;
+  top: 90px;
+  height: 720px;
+  width: 180px;
+}
+
+.item {
+  display: flex;
+  position: relative;
+}
+
+.item-1 {
+  transform: rotate(10deg);
+  left: -67px;
+  top: -79px;
+}
+
+.item-2 {
+  transform: rotate(57deg);
+  right: -94px;
+  top: -152px;
+}
+
+.item-3 {
+  transform: rotate(103deg);
+  right: -126px;
+  top: -140px;
+}
+
+.item-4 {
+  transform: rotate(158deg);
+  right: 2px;
+  top: -174px;
+}
+
+.text {
+  min-width: 200px;
+  color: red;
+  font-weight: 700;
+  position: absolute;
+}
+
+.text-1 {
+  transform: rotate(-10deg);
+  right: -120px;
+  top: -20px;
+}
+
+.text-2 {
+  transform: rotate(-57deg);
+  right: -82px;
+  top: -85px;
+}
+
+.text-3 {
+  transform: rotate(-103deg);
+  right: 28px;
+  top: -96px;
+}
+
+.text-4 {
+  transform: rotate(-158deg);
+  right: 89px;
+  top: -36px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  padding: 65px;
+  background: url(./assets/svg/background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
